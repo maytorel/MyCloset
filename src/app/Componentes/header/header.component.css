@@ -16,10 +16,15 @@ img{
 }
 
 .col.s2.right{
-    /*border: 1px solid #a11171;*/
-    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: right;
 }
 a{
     font-size: 1.2em;
     color: #333;
+    padding-left: 10px;
+}
+a:hover{
+    color: #ed608c;
 }

@@ -1,0 +1,86 @@
+#cuadros {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0px;
+    margin-bottom: 150px;
+  }
+.row .col.s3{
+    width: 440px;
+    height: 440px;
+    border-radius: 20px;
+    padding: 0%;
+    margin-left: 2%;
+    position: relative;
+    overflow: hidden;
+}
+img{
+    border-radius: 20px;
+    height: 440px;
+    width: 440px;
+}
+
+#titleT{
+    color: #333;
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 7%;
+    margin-top: 12%;
+    margin-bottom: 30px;
+}
+
+.hover-box {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 35%;
+    background-color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px; 
+    display: flex;
+    flex-direction: column;
+}
+
+.hover-box p{
+    color: #737071;
+    font-size: 22px;
+    font-weight:700;
+    text-align: left;
+    margin-left: 5%;
+    margin-bottom: 0%;
+}
+.hover-box h4{
+    color: #737071;
+    font-size: 16px;
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 15px;
+}
+
+.hover-box a {
+    color: #737071;
+    font-size: 16px;
+    text-align: left;
+    font-style: italic;
+}
+.hover-box a:hover {
+    color: #f7a4be;
+    font-weight: 700;
+}
+
+.image-container:hover .hover-box {
+    opacity: 1;
+}
+
+.hoverable{
+    box-shadow: 0px 3px 8px #aeabac;
+    transition: 1s ease;
+}
+.hoverable:hover{
+    transition: 1s ease;
+    box-shadow: 0px 5px 20px #f7a4be;
+    transform: scale(1.07);
+}

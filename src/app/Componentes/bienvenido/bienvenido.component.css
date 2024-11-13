@@ -1,0 +1,74 @@
+.welcome-container 
+  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    margin-left: 80px;
+  }
+  
+  .text-content 
+  {
+    max-width: 50%;
+    margin-right: 30px;
+    margin-top: -210px;
+  }
+  
+  .welcome-title 
+  {
+    font-size: 3em;
+    font-weight: bold;
+  }
+  
+  .welcome-description 
+  {
+    margin-top: 10px;
+    font-size: 1.2em;
+  }
+
+  .little-bold
+  {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color:#e58ea8;
+  }
+  
+  .search-prompt 
+  {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0;
+    color: #e58ea8;
+    margin-left: 50px;
+  }
+  
+  .scroll-down 
+  {
+    margin-top: 2px;
+    font-size: 0.9em;
+    margin-left: 95px;
+    margin-bottom: 0;
+    
+  }
+  
+  .arrow-container 
+  {
+    font-size: 2em;
+    margin-top: 5px;
+    margin-left: 120px;
+    margin-bottom: 0;
+    line-height: 1;
+  }
+  
+  .image-content 
+  {
+    max-width: 45%;
+  }
+  
+  .person-image 
+  {
+    max-width: 100%;
+    height: auto;
+  }
+  
