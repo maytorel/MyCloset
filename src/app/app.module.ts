@@ -11,6 +11,7 @@ import { OtrosUsuariosComponent } from './Componentes/otros-usuarios/otros-usuar
 import { SearchBarComponent } from './Componentes/search-bar/search-bar.component';
 import { BienvenidoComponent } from './Componentes/bienvenido/bienvenido.component';
 import { FooterComponent } from './Componentes/footer/footer.component';
+import { IniciosesionComponent } from './Componentes/iniciosesion/iniciosesion.component';
 
 
 @NgModule({
@@ -24,6 +25,7 @@ import { FooterComponent } from './Componentes/footer/footer.component';
     SearchBarComponent,
     BienvenidoComponent,
     FooterComponent,
+    IniciosesionComponent,
   ],
   imports: [
     BrowserModule,

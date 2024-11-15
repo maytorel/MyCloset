@@ -5,42 +5,44 @@
     justify-content: space-between;
     padding: 40px;
     margin-left: 80px;
+    margin-bottom: 10%;
   }
   
   .text-content 
   {
     max-width: 50%;
     margin-right: 30px;
-    margin-top: -210px;
+    margin-top: 7%;
   }
   
   .welcome-title 
   {
-    font-size: 3em;
+    font-size: 100px;
     font-weight: bold;
   }
   
   .welcome-description 
   {
     margin-top: 10px;
+    margin-left: 10px;
     font-size: 1.2em;
+    color: #737071;
   }
 
   .little-bold
   {
     margin-top: 10px;
     font-size: 1.2em;
-    color:#e58ea8;
+    color:#f7a4be;
   }
   
   .search-prompt 
   {
-    font-size: 1.5em;
+    font-size: 30px;
     font-weight: bold;
-    margin-top: 10px;
+    margin-top: 40px;
+    margin-right: 170px;
     margin-bottom: 0;
-    color: #e58ea8;
-    margin-left: 50px;
   }
   
   .scroll-down 
@@ -55,20 +57,40 @@
   .arrow-container 
   {
     font-size: 2em;
-    margin-top: 5px;
-    margin-left: 120px;
-    margin-bottom: 0;
+    margin-top: 20px;
+    margin-bottom: 120px;
+    margin-right: 170px;
     line-height: 1;
   }
   
   .image-content 
   {
-    max-width: 45%;
+    margin-right: 170px;
+    position: relative;
+    height: 700px;
+    width:700px;
   }
-  
-  .person-image 
-  {
+
+  img{
+    width: 120%;
+    margin-top: 0px;
+    position: absolute;
+    transition: opacity 0.5s ease-in-out;
+  }
+  .front:hover{
+    opacity: 0;
+    cursor: pointer;
+  }
+  .front:hover ~ .back {
+    opacity: 1;
+  }
+  .person-image  {
     max-width: 100%;
     height: auto;
   }
-  
+  .btn-floating:hover {
+    background-color: #f7a4be !important;
+  }
+  .btn-floating:hover i {
+    color: #FFFFFF !important; 
+  }
