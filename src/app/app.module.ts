@@ -12,6 +12,8 @@ import { SearchBarComponent } from './Componentes/search-bar/search-bar.componen
 import { BienvenidoComponent } from './Componentes/bienvenido/bienvenido.component';
 import { FooterComponent } from './Componentes/footer/footer.component';
 import { IniciosesionComponent } from './Componentes/iniciosesion/iniciosesion.component';
+import { HomePageComponent } from './Componentes/home-page/home-page.component';
+import { PerfilUsuarioComponent } from './Componentes/perfil-usuario/perfil-usuario.component';
 
 
 @NgModule({
@@ -26,6 +28,8 @@ import { IniciosesionComponent } from './Componentes/iniciosesion/iniciosesion.c
     BienvenidoComponent,
     FooterComponent,
     IniciosesionComponent,
+    HomePageComponent,
+    PerfilUsuarioComponent,
   ],
   imports: [
     BrowserModule,
