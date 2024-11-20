@@ -15,10 +15,15 @@
     display: flex;
     align-items: center;
 }
+p{
+    color: #b6b2b4;
+    font-size: 20px;
+}
 #iconn{
     height: 37px;
     width: 43px;
     margin-left: 25px;
+    margin-right: 25px;
 }
 
 .col.s3.push-s4{
@@ -29,10 +34,11 @@
     font-size: 18px;
     color: #8d8b8b;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: bold;
 }
 #text2:hover{
     color: #f7a4be;
+    font-weight: bold;
 }
 
 #st1{
