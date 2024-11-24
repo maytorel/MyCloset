@@ -1,5 +1,8 @@
-p{
-    font-size: 150px;
-    text-align: center;
-    color: #f7a4be;
+img{
+    width: 15%;
+}
+
+.col.s6{
+    border: 1px solid magenta;
+    width: max-content;
 }
