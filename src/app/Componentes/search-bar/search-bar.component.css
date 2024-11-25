@@ -34,11 +34,12 @@ p{
     font-size: 18px;
     color: #8d8b8b;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 400;
 }
 #text2:hover{
     color: #f7a4be;
     font-weight: bold;
+    transition: 0.1s ease-in-out;
 }
 
 #st1{
@@ -61,3 +62,43 @@ p{
     width: 200px;
     height: 300px;
 }
+
+
+#buscador{
+    border: 2px solid rgb(207, 207, 207, 0.8);
+    border-radius: 20px;
+    height: 80px;
+    width: 1127px;
+    margin-left: 270px;
+}
+#buscador:focus-within {
+    border: 2px solid rgb(247, 164, 190, 0.5);
+    box-shadow: 0px 0px 5px #f7a4be;
+}
+/*color inputs*/
+.input-field label {  /*texto inicio */
+    color: #b6b2b4;
+  }
+
+  .input-field input[type=text]:focus + label { /*texto despues de escribir*/
+    transition: 0.3s ease-in-out;
+    opacity: 0;
+  }
+
+  .input-field input[type=text]:focus {
+    border-bottom: 1px solid #ffffff; /*linea*/
+    box-shadow: 0 1px 0 0 #ffffff; 
+    /*sombra linea*/
+  }
+  .input-field input[type=text] {
+    border-bottom: 1px solid #ffffff; /*linea*/
+    box-shadow: 0 1px 0 0 #ffffff; 
+    /*sombra linea*/
+  }
+
+  .input-field .prefix.active { /*icono hover*/
+    color: #f7a4be;
+  }
+  .input-field { /*icono*/
+    color: #8d8b8b; 
+  }
