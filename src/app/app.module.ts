@@ -18,6 +18,8 @@ import { PerfilUsuarioComponent } from './Componentes/perfil-usuario/perfil-usua
 import { TendenciaCoquetteComponent } from './Componentes/tendencia-coquette/tendencia-coquette.component';
 import { TendenciaOldMoneyComponent } from './Componentes/tendencia-old-money/tendencia-old-money.component';
 import { TendenciasRockComponent } from './Componentes/tendencias-rock/tendencias-rock.component';
+import { Iniciarsesion2Component } from './Componentes/iniciarsesion2/iniciarsesion2.component';
+import { RegistarteComponent } from './Componentes/registarte/registarte.component';
 
 
 @NgModule({
@@ -37,6 +39,8 @@ import { TendenciasRockComponent } from './Componentes/tendencias-rock/tendencia
     TendenciaCoquetteComponent,
     TendenciaOldMoneyComponent,
     TendenciasRockComponent,
+    Iniciarsesion2Component,
+    RegistarteComponent,
   ],
   imports: [
     BrowserModule,

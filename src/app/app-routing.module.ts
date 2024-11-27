@@ -6,6 +6,8 @@ import { PerfilUsuarioComponent } from './Componentes/perfil-usuario/perfil-usua
 import { TendenciaCoquetteComponent } from './Componentes/tendencia-coquette/tendencia-coquette.component';
 import { TendenciaOldMoneyComponent } from './Componentes/tendencia-old-money/tendencia-old-money.component';
 import { TendenciasRockComponent } from './Componentes/tendencias-rock/tendencias-rock.component';
+import { Iniciarsesion2Component } from './Componentes/iniciarsesion2/iniciarsesion2.component';
+import { RegistarteComponent } from './Componentes/registarte/registarte.component';
 
 const routes: Routes = [
   {path: '', component: IniciosesionComponent}, 
@@ -14,6 +16,8 @@ const routes: Routes = [
   {path: 'tCoquette', component:TendenciaCoquetteComponent},
   {path: 'tOldMoney', component: TendenciaOldMoneyComponent},
   {path: 'tRock', component:TendenciasRockComponent},
+  {path: 'inicioSesion', component:Iniciarsesion2Component},
+  {path: 'registrarteSesion', component:RegistarteComponent}
 ];
 
 @NgModule({
