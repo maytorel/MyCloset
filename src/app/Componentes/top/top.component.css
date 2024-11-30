@@ -1,0 +1,42 @@
+#margen{
+    border: 1px solid magenta;
+}
+#margen2{
+    border: 1px solid green;
+}
+#space{
+    margin: 0px 30px 50px 30px;
+}
+
+#title{
+    font-size: 103px;
+    font-weight: 650;
+    color: #221E1E;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+#opt{
+    margin-top: 25%;
+    margin-bottom: 25%;
+}
+.closet{
+    background-color: #F0F0F0;
+    padding: 0%;
+}
+.btn-large{
+    width: 80px;
+    height: 80px;
+    background-color: #CACACA;
+}
+.btn-large:hover{
+    background-color: #f7a4be !important;
+}
+.secciones{
+    border: 1px solid blue;
+    margin-left: 0%;
+    margin-right: 5%;
+    padding-left: 0%;
+}
+.clothes{
+    margin: 5%;
+}

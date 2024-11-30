@@ -20,6 +20,7 @@ import { TendenciaOldMoneyComponent } from './Componentes/tendencia-old-money/te
 import { TendenciasRockComponent } from './Componentes/tendencias-rock/tendencias-rock.component';
 import { Iniciarsesion2Component } from './Componentes/iniciarsesion2/iniciarsesion2.component';
 import { RegistarteComponent } from './Componentes/registarte/registarte.component';
+import { TopComponent } from './Componentes/top/top.component';
 
 
 @NgModule({
@@ -41,6 +42,7 @@ import { RegistarteComponent } from './Componentes/registarte/registarte.compone
     TendenciasRockComponent,
     Iniciarsesion2Component,
     RegistarteComponent,
+    TopComponent,
   ],
   imports: [
     BrowserModule,

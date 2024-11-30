@@ -8,6 +8,7 @@ import { TendenciaOldMoneyComponent } from './Componentes/tendencia-old-money/te
 import { TendenciasRockComponent } from './Componentes/tendencias-rock/tendencias-rock.component';
 import { Iniciarsesion2Component } from './Componentes/iniciarsesion2/iniciarsesion2.component';
 import { RegistarteComponent } from './Componentes/registarte/registarte.component';
+import { TopComponent } from './Componentes/top/top.component';
 
 const routes: Routes = [
   {path: '', component: IniciosesionComponent}, 
@@ -17,7 +18,8 @@ const routes: Routes = [
   {path: 'tOldMoney', component: TendenciaOldMoneyComponent},
   {path: 'tRock', component:TendenciasRockComponent},
   {path: 'inicioSesion', component:Iniciarsesion2Component},
-  {path: 'registrarteSesion', component:RegistarteComponent}
+  {path: 'registrarteSesion', component:RegistarteComponent},
+  {path: 'MyClosetTops', component:TopComponent},
 ];
 
 @NgModule({
