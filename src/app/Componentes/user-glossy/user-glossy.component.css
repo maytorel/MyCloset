@@ -68,6 +68,7 @@ a{
     margin: 20px auto; /* Centers it horizontally */
     max-width: 1000px; /* Matches .row max-width */
     margin-top: 0px;
+    margin-top: 30px;
 }
 
 

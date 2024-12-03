@@ -22,6 +22,8 @@
 }
 a{
     color: #e58ea8;
+    display: flex; /* Enable flexbox */
+    align-items:flex-start; /* Align text and icon to their vertical center */
 }
 #nR{
     font-size: 1em;
@@ -30,7 +32,7 @@ a{
     font-weight: bold;
     margin-bottom: 10px;
     display: flex; /* Enable flexbox */
-    align-items: center; /* Align text and icon to their vertical center */
+    align-items: flex-end; /* Align text and icon to their vertical center */
     gap: 5px; /* Add spacing between text and icon */
 }
 
