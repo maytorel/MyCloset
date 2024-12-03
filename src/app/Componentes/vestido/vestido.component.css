@@ -27,6 +27,7 @@
     font-weight: 650;
     color: #221E1E;
     margin-top: 0%;
+    padding-left: 0%;
     margin-bottom: 0%;
 }
 #opt{
@@ -34,15 +35,15 @@
     margin-bottom: 25%;
     padding-left: 3px;
 }
-#opt img{
-    width: 80px;
-    height: 80px;
-}
 #optT{
     margin-top: 25%;
     margin-bottom: 25%;
     padding-left: 3px;
     background-color: #f7a4be;
+}
+#opt img{
+    width: 80px;
+    height: 80px;
 }
 #optT img{
     width: 80px;
@@ -90,4 +91,3 @@
     padding-left: 5%;
     padding-right: 5%;
 }
-

@@ -1,0 +1,123 @@
+.row{
+    margin-top: 120px;
+    margin-bottom: 120px;
+    width: 80%;
+    max-width: 1000px;
+}
+#pH{
+    align-content: center;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    aspect-ratio: 1 / 1;
+    border-radius: 10px;
+    font-size: 1.2em;
+    color:  #e58ea8;
+    margin-right: 30px;
+}
+#uN{
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+a{
+    color: #e58ea8;
+}
+#nR{
+    font-size: 1em;
+    color: #e58ea8;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: flex; /* Enable flexbox */
+    align-items: center; /* Align text and icon to their vertical center */
+    gap: 5px; /* Add spacing between text and icon */
+}
+
+
+#nR i.material-icons {
+    font-size: 1.2em; /* Slightly larger icon for better balance */
+    line-height: 1;
+}
+
+
+#etiqueta{
+    padding: 5px 10px;
+    margin: 0.5%;
+    border-radius: 20px;
+    background-color: #ffe6f0;
+    color: #e58ea8;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-align: center;
+}
+#etiqueta:hover{
+    background-color: #c34879;
+    color: #ffe6f0;
+}
+
+
+#qpedo{
+    border: 1px solid magenta;
+}
+#jk{
+    margin-bottom: 80px;
+}
+.favoritos {
+    width: 80%; /* Matches .row width */
+    margin: 20px auto; /* Centers it horizontally */
+    max-width: 1000px; /* Matches .row max-width */
+    margin-top: 0px;
+}
+
+
+.favoritos h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 10px 0;
+    border-bottom: 1px solid #d8d8d8;
+    padding-bottom: 5px;
+}
+
+
+.favoritos .elementos-favoritos {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+}
+
+
+.favoritos .elemento-favorito {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+    color: #666;
+}
+
+
+#chips-initial {
+    display: flex;
+    position: relative;
+    padding-bottom: 5px;
+    justify-content: start; /* Align chips to the start */
+  }
+
+
+img{
+    width: 100%;
+    max-width: 400px;
+    aspect-ratio: 1 / 1;
+    border-radius: 10px;
+}
+
+
+.chips.focus
+{
+    border-bottom: 1px solid #e58ea8;
+    box-shadow:0 1px 0 0 #e58ea8;
+}

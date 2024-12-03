@@ -9,6 +9,14 @@ import { TendenciasRockComponent } from './Componentes/tendencias-rock/tendencia
 import { Iniciarsesion2Component } from './Componentes/iniciarsesion2/iniciarsesion2.component';
 import { RegistarteComponent } from './Componentes/registarte/registarte.component';
 import { TopComponent } from './Componentes/top/top.component';
+import { UserGlossyComponent } from './Componentes/user-glossy/user-glossy.component';
+import { UserGoldComponent } from './Componentes/user-gold/user-gold.component';
+import { UserMaxiComponent } from './Componentes/user-maxi/user-maxi.component';
+import { BotomsComponent } from './Componentes/botoms/botoms.component';
+import { VestidoComponent } from './Componentes/vestido/vestido.component';
+import { ZapatoComponent } from './Componentes/zapato/zapato.component';
+import { AcceComponent } from './Componentes/acce/acce.component';
+import { OutfitFavComponent } from './Componentes/outfit-fav/outfit-fav.component';
 
 const routes: Routes = [
   {path: '', component: IniciosesionComponent}, 
@@ -20,6 +28,14 @@ const routes: Routes = [
   {path: 'inicioSesion', component:Iniciarsesion2Component},
   {path: 'registrarteSesion', component:RegistarteComponent},
   {path: 'MyClosetTops', component:TopComponent},
+  {path: "perfilGlossyBaddie", component:UserGlossyComponent},
+  {path: "perfilMaxiSiren927", component:UserMaxiComponent},
+  {path: "perfilGoldStarXxX", component:UserGoldComponent},
+  {path: "MyClosetBottoms", component:BotomsComponent},
+  {path: "MyClosetVestidos", component:VestidoComponent},
+  {path: "MyClosetZapatos", component:ZapatoComponent},
+  {path: "MyClosetAccesorios", component:AcceComponent},
+  {path: "MyClosetFavoritos", component:OutfitFavComponent},
 ];
 
 @NgModule({

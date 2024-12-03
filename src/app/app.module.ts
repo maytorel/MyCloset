@@ -21,6 +21,14 @@ import { TendenciasRockComponent } from './Componentes/tendencias-rock/tendencia
 import { Iniciarsesion2Component } from './Componentes/iniciarsesion2/iniciarsesion2.component';
 import { RegistarteComponent } from './Componentes/registarte/registarte.component';
 import { TopComponent } from './Componentes/top/top.component';
+import { UserMaxiComponent } from './Componentes/user-maxi/user-maxi.component';
+import { UserGlossyComponent } from './Componentes/user-glossy/user-glossy.component';
+import { UserGoldComponent } from './Componentes/user-gold/user-gold.component';
+import { BotomsComponent } from './Componentes/botoms/botoms.component';
+import { VestidoComponent } from './Componentes/vestido/vestido.component';
+import { ZapatoComponent } from './Componentes/zapato/zapato.component';
+import { AcceComponent } from './Componentes/acce/acce.component';
+import { OutfitFavComponent } from './Componentes/outfit-fav/outfit-fav.component';
 
 
 @NgModule({
@@ -43,6 +51,14 @@ import { TopComponent } from './Componentes/top/top.component';
     Iniciarsesion2Component,
     RegistarteComponent,
     TopComponent,
+    UserMaxiComponent,
+    UserGlossyComponent,
+    UserGoldComponent,
+    BotomsComponent,
+    VestidoComponent,
+    ZapatoComponent,
+    AcceComponent,
+    OutfitFavComponent,
   ],
   imports: [
     BrowserModule,
