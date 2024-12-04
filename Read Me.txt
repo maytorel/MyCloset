@@ -1,0 +1,6 @@
+Bienvenido a MyCloset!
+
+Para poder correr este programa es necesario descargar:
+1. Angular
+2. Node.js
+3. Materialize
